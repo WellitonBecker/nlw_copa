@@ -19,6 +19,7 @@ export default function App() {
 
       { fontLoaded ? <SignIn/> : <Loading/> }
     </NativeBaseProvider>
+    
   );
 }
 
